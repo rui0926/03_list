@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+ void efface()
 int main(int argc, char *argv[]) 
 {
     char str[5];
@@ -8,28 +10,34 @@ int main(int argc, char *argv[])
     while(fgets(str, sizeof(str), stdin))
     {
        inputnum = 0;
+       int input = atoi(str);
         
         void efface()
-        if (str == -1)
+        {
+            retturn;
+        }
+        if (input == -1)
         {
           printf("%s\n", array[-insert-1]);
             efface
         }
-         else if(str == 0)
+         else if(input == 0)
          {
-             for(i = 0, )
+             for(i = 0, 0 <= array[insert], i++)
              {
                  if(i == 0)
-                 printf("%s")
+                 printf("%s\n",array[0]);
+                 else
+                 sprintf(insert, "%s",array[i]);
+                 printf("\n");
              }
+          }
              printf("%s", str);
          }
         else
         {
             array[inputnum++] = insert;
         }
-        
-       
     }
 
     return 0;
